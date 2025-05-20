@@ -36,6 +36,7 @@ nav  {
     transform: rotate(10deg) ;
 }
 .nav-icon span{
+    font-family:Impact;
     font-size: 30px;
     padding-left: 50px;
 }
@@ -81,7 +82,7 @@ display: none;
 
 @media  (max-width: 800px){ 
     nav  {
-  position: relative;
+  position: fixed;
     }
     
     .navlinks-container{
@@ -120,7 +121,7 @@ display: none;
 
 
     .text{
-    padding-top: 5px;
+    padding-top: 103px;
     padding-left: 10px;
 }
 
