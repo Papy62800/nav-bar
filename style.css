@@ -6,7 +6,7 @@
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    /* background: #111; */
+    
 }
 
 nav  {
@@ -15,7 +15,6 @@ nav  {
   height: 100px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   padding: 10px 25px;
   background: rgb(119, 116, 116);
   box-shadow: inset 0px -1px 0px #020202
@@ -85,6 +84,10 @@ display: none;
   position: fixed;
     }
     
+    .nav-icon img{
+    width: 30%;
+ 
+   }
     .navlinks-container{
         display: flex;
         flex-direction: column;
@@ -96,8 +99,10 @@ display: none;
           background: rgb(119, 116, 116);
         height: 100vh;
         border-right: 1px solid #020202;
+         transition: 0.3s ease-out;
         transform: translateX(-100%); 
     }
+
 
     .open{
         transform: translate(0%);
@@ -140,6 +145,7 @@ display: none;
 }
 
 
+
 .hamburgerButton span{
     display: block;
     width: 100%;
@@ -147,7 +153,7 @@ display: none;
     background: white;
     position: absolute;
     pointer-events: none;
-    /* transition: opacity 0.3s 0.15s ease-in-out; */
+   
 }
 .hamburgerButton span:nth-child(1),
 .hamburgerButton span:nth-child(3){
