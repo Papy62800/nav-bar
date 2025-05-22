@@ -6,7 +6,7 @@
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    background-image: url("/fond.jpg");
 }
 
 nav  {
@@ -17,23 +17,21 @@ nav  {
   align-items: center;
   padding: 10px 25px;
   background: rgb(119, 116, 116);
-  box-shadow: inset 0px -1px 0px #020202
-  
-   
+  box-shadow: inset 0px -1px 0px #020202 
 }
 
 .nav-icon{
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-right: 25px;
-    
+    margin-right: 25px;   
 }
 
 .nav-icon img{
     width: 35%;
     transform: rotate(10deg) ;
 }
+
 .nav-icon span{
     font-family:Impact;
     font-size: 30px;
@@ -69,16 +67,27 @@ nav  {
 .hamburgerButton{
 display: none;
 }
+/******************************************fin de la nav bar****************************************************************/
 
+
+  .text img{
+    margin:  7px 7px;
+    width: 35%;
+    object-fit: cover;
+    float: left;
+    shape-outside: margin-box;
+    border-radius: 55px;
+  }
 
 .text{
     padding-top: 101px;
     padding-left: 10px;
+    color: rgb(171, 173, 175);
 
 
 }
 
-
+/**********************************************debut du responsive***********************************************************/
 @media  (max-width: 800px){ 
     nav  {
   position: fixed;
@@ -125,11 +134,20 @@ display: none;
     }
 
 
-    .text{
-    padding-top: 103px;
-    padding-left: 10px;
+  .text img{
+    margin:  7px 7px;
+    width: 45%;
+    object-fit: cover;
+    float: left;
+    shape-outside: margin-box;
+    border-radius: 55px;
+  }
+
+.text{ 
+    margin-top;
 }
 
+/******************************************hamburger bouton*******************************************/
 
 .hamburgerButton{
     width: 20px;
@@ -143,7 +161,6 @@ display: none;
     position: relative;
 
 }
-
 
 
 .hamburgerButton span{
