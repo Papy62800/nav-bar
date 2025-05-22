@@ -6,7 +6,7 @@
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("/fond.jpg");
+    background-image: url("./fond.jpg");
 }
 
 nav  {
