@@ -45,3 +45,11 @@ background-color: beige;
     cursor: pointer;
 
 }
+
+@media  (max-width: 800px){ 
+
+    body{
+margin-top: 20%;
+    }
+
+}
